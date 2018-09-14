@@ -1,0 +1,13 @@
+---
+title: "mturk_hex"
+author: "Casey Pelz"
+date: "8/2/2018"
+output: pdf_document
+---
+
+```{r}
+mydata <- read.csv("Hexagons.csv")
+save(mydata, file = 'hex.RData')
+mydata
+```
+
